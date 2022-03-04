@@ -1,0 +1,5 @@
+print("Hello World")
+file = open("hello.txt", w)
+file.write("The quick brown fox jumps over the lazy dog.")
+file.close()
+print("The quick brown fox jumps over the lazy dog.")
