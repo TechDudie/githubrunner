@@ -29,7 +29,7 @@ jobs:
       run: |
         bash run.sh
     - name: Archive code coverage results
-        uses: actions/upload-artifact@v3
-        with:
-          name: files
-          path: *
+      uses: actions/upload-artifact@v3
+      with:
+        name: files
+        path: *
